@@ -47,3 +47,13 @@ Use `concurrently` to run both frontend and backend simultaneously:
 
 ```bash
 npm run dev
+```
+
+
+## Adding Dummy Data
+ run the seed.js in the backend folder to fill up your own database with content.
+ ```bash
+ cd backend
+ node seed.js
+```
+or just use 'mongodb+srv://zainab:zainab@goalapp.8ohr6va.mongodb.net/mernapp?retryWrites=true&w=majority' in .env
